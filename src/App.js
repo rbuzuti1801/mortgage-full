@@ -109,11 +109,12 @@ export default function App() {
         style={{
           marginTop: 24,
           padding: 16,
-          backgroundColor: "#F3F4F6",
+          backgroundColor: "#0070F3",
           borderRadius: 8,
-          fontWeight: 600,
-          fontSize: 16,
+          fontWeight: 700,
+          fontSize: 18,
           textAlign: "center",
+          color: "#fff",
         }}
       >
         Monthly Payment: ${monthlyTotal.toFixed(0)}/mo
